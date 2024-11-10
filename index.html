@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=settings" />
+
+    <link rel="stylesheet" href="css/style.css">  
+
+    <title>Audiodescrição</title>
+</head>
+<body>
+
+    <main>
+        <header> 
+            <h1 tabindex="1"> Audiodescrição dos projetos da turma de UX/UI </h1>
+            <p tabindex="2"> A baixo tem 6 opções de audiodescrição, a primeira contém explicações sobre a organização dos projetos, os demais contém a audiodescrição dos projetos. Se guiando pela tecla TAB, você será direcionado para os conteúdos, ao chegar no conteúdo desejado aperte a tecla ENTER e ouça a audiodescrição. </p>
+        </header>
+
+        
+        <section> 
+            <button tabindex="3" id="audiodescrição"> Sobre o projeto</button>
+
+            <button tabindex="4" id="tasteMap"> Taste Map </button>
+            <button tabindex="5" id="plantson"> Plantson </button>
+            <button tabindex="6" id="buddyBuilder">Buddy Builder </button>
+            <button tabindex="7" id="rastreio"> Rastre.Io </button>
+            <button tabindex="8" id="chetOn"> Chet On My Barber </button>
+        </section>
+
+    </main>
+
+    <aside> 
+        <audio id='audioBuddy' src="midia/audio/buddybuilder.mp3" type="audio/mpeg"></audio>
+        <audio id='audioTaste' src="midia/audio/tastemap.mp3" type="audio/mpeg"></audio>
+        <audio id='audioChet' src="midia/audio/chet.mp3" type="audio/mpeg"></audio>
+        <audio id='audioRastre' src="midia/audio/rastreio.mp3" type="audio/mpeg"></audio>
+        <audio id='audioProjeto' src="midia/audio/projeto.mp3" type="audio/mpeg"></audio>
+        <audio id='audioPlantson' src="midia/audio/plantson.mp3" type="audio/mpeg"></audio>
+    </aside>
+
+    <video id="videoFundo" autoplay muted loop>
+        <source src="midia/video/fundo.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+
+      <div id="popup">O áudio está tocando!</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
