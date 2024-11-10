@@ -88,6 +88,7 @@ botao.chet.addEventListener('click', ()=>{
     audio.buddy.pause();
     audio.plantson.pause();
     mostrarPopup();
+
 });
 
 const popup = document.getElementById("popup");
@@ -96,5 +97,5 @@ function mostrarPopup() {
     popup.style.display = "block";  // Exibe o pop-up
     setTimeout(() => {
       popup.style.display = "none";  // Esconde o pop-up após 3 segundos
-    }, 5000); // 3000ms = 3 segundos
+    }, 10000); // 3000ms = 3 segundos
   }
